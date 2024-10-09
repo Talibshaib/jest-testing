@@ -14,6 +14,10 @@ export const testFunction = (params) => {
         throw new Error('Error');
     }
 }
-const testcall = () => {
-    
+export const testcall = (callback) => {
+    setTimeout(() => {
+        callback('penut Butter Jelly Time');
+    }, 1000)
+
+
 };
